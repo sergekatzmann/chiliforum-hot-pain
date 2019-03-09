@@ -1,0 +1,23 @@
+  {
+    "name": "chiliforum.hot-pain.de - Linkkorrektur",
+    "version": "1.0",
+    "description": "Korrigiert Links im Hot-Pain.de Chiliforum",
+	"permissions": [
+		"activeTab", 
+		"storage",
+		"webNavigation",
+		"tabs",
+		"http://chiliforum.hot-pain.de/",
+		"https://chiliforum.hot-pain.de/"
+	],	
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+	"icons": { 
+		"16": "chili16.png",
+		"48": "chili48.png",
+		"128": "chili128.png"
+	},
+    "manifest_version": 2
+  }
